@@ -10,7 +10,7 @@ class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
         self.city_label = QLabel("Enter City:", self)
-        self.city_input = QLineEdit(self)
+        self.city_input = QLineEdit(self) #allows you to input the city name 
         self.get_weather_button = QPushButton("Get Weather", self)
         self.temperature_label = QLabel(self)
         self.emoji_label = QLabel(self)
